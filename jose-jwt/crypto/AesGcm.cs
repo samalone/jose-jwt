@@ -26,6 +26,7 @@ namespace Jose
             byte[] tag = new byte[MaxAuthTagSize(hAlg)];
 
             var authInfo = new BCrypt.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO(iv, aad, tag);
+#pragma warning disable CS0728
             using (authInfo)
             {
                 byte[] ivData = new byte[tag.Length];
@@ -47,6 +48,7 @@ namespace Jose
 
                 Marshal.Copy(authInfo.pbTag, tag, 0, authInfo.cbTag);
             }
+#pragma warning restore CS0728
 
             BCrypt.BCryptDestroyKey(hKey);
             Marshal.FreeHGlobal(keyDataBuffer);
@@ -72,6 +74,7 @@ namespace Jose
             byte[] plainText;
 
             var authInfo = new BCrypt.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO(iv, aad, authTag);
+#pragma warning disable CS0728
             using (authInfo)
             {
                 byte[] ivData = new byte[MaxAuthTagSize(hAlg)];
@@ -91,8 +94,9 @@ namespace Jose
                     throw new CryptographicException("BCrypt.BCryptDecrypt(): authentication tag mismatch");
 
                 if (status != BCrypt.ERROR_SUCCESS)
-                    throw new CryptographicException(string.Format("BCrypt.BCryptDecrypt() failed with status code:{0}", status));                
+                    throw new CryptographicException(string.Format("BCrypt.BCryptDecrypt() failed with status code:{0}", status));
             }
+#pragma warning restore CS0728
 
             BCrypt.BCryptDestroyKey(hKey);
             Marshal.FreeHGlobal(keyDataBuffer);
