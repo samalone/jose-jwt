@@ -139,7 +139,7 @@ namespace Jose
                 {
                     return RsaPss.Verify(securedInput, signature, publicKey, Hash, saltSize);
                 }
-                catch (CryptographicException e)
+                catch (CryptographicException)
                 {
                     return false;
                 }
@@ -155,7 +155,7 @@ namespace Jose
                 {
                     return RsaPss.Verify(securedInput, signature, publicKey, Hash, saltSize);
                 }
-                catch (CryptographicException e)
+                catch (CryptographicException)
                 {
                     return false;
                 }
