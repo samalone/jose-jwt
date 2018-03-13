@@ -1,4 +1,3 @@
-
 #ignore thumbnails created by windows
 Thumbs.db
 #Ignore files build by Visual Studio
@@ -17,3 +16,4 @@ artifacts/
 .vs
 .vscode
 packages
+*.project.lock.json
