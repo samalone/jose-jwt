@@ -61,12 +61,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\samalone\\Documents\\Projects\\AP website\\CloudAPI\\jose-jwt\\jose-jwt\\jose-jwt.net46.csproj",
+      "projectUniqueName": "C:\\Users\\samalone\\Documents\\Projects\\antigen-plus\\APEngine\\CloudAPI\\jose-jwt\\jose-jwt\\jose-jwt.net46.csproj",
       "projectName": "jose-jwt.net46",
-      "projectPath": "C:\\Users\\samalone\\Documents\\Projects\\AP website\\CloudAPI\\jose-jwt\\jose-jwt\\jose-jwt.net46.csproj",
-      "projectJsonPath": "C:\\Users\\samalone\\Documents\\Projects\\AP website\\CloudAPI\\jose-jwt\\jose-jwt\\jose-jwt.net46.project.json",
+      "projectPath": "C:\\Users\\samalone\\Documents\\Projects\\antigen-plus\\APEngine\\CloudAPI\\jose-jwt\\jose-jwt\\jose-jwt.net46.csproj",
+      "projectJsonPath": "C:\\Users\\samalone\\Documents\\Projects\\antigen-plus\\APEngine\\CloudAPI\\jose-jwt\\jose-jwt\\jose-jwt.net46.project.json",
       "packagesPath": "C:\\Users\\samalone\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samalone\\Documents\\Projects\\AP website\\CloudAPI\\jose-jwt\\jose-jwt\\obj\\",
+      "outputPath": "C:\\Users\\samalone\\Documents\\Projects\\antigen-plus\\APEngine\\CloudAPI\\jose-jwt\\jose-jwt\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\samalone\\AppData\\Roaming\\NuGet\\NuGet.Config",
