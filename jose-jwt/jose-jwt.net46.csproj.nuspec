@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title</title>
+    <authors>dvsekhvalnov</authors>
+    <owners>dvsekhvalnov</owners>
+    <licenseUrl>https://raw.github.com/dvsekhvalnov/jose-jwt/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/samalone/jose-jwt</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Javascript Object Signing and Encryption (JOSE) and JSON Web Token (JWT) Implementation for .NET </description>
+    <releaseNotes>Initial NuGet release.</releaseNotes>
+    <copyright>Copyright dvsekhvalnov 2014-2017</copyright>
+    <tags></tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+      <dependency id="System.Runtime.InteropServices" version="4.3.0" />
+      <dependency id="System.IO.Compression" version="4.3.0" />
+      <dependency id="System.Security.Cryptography.Algorithms" version="4.3.0" />
+      <dependency id="System.Security.Cryptography.Csp" version="4.3.0" />
+      <dependency id="System.Security.Cryptography.Cng" version="4.3.0" />
+      <dependency id="System.Security.Cryptography.X509Certificates" version="4.3.0" />
+      <dependency id="System.Runtime.Serialization.Primitives" version="4.3.0" />
+    </dependencies>
+  </metadata>
+</package>

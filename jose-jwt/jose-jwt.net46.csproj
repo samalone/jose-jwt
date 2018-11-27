@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jose</RootNamespace>
-    <AssemblyName>jose-jwt-net46</AssemblyName>
+    <AssemblyName>AntigenPlus.jose-jwt</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -88,7 +88,10 @@
     <Compile Include="util\Ensure.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="jose-jwt.net46.csproj.nuspec" />
     <None Include="jose-jwt.snk" />
+    <None Include="nuget-pack.ps1" />
+    <None Include="nuget-push.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
