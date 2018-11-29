@@ -3,7 +3,7 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
-    <title>$title</title>
+    <title>$title$</title>
     <authors>dvsekhvalnov</authors>
     <owners>dvsekhvalnov</owners>
     <licenseUrl>https://raw.github.com/dvsekhvalnov/jose-jwt/master/LICENSE</licenseUrl>
@@ -16,12 +16,14 @@
     <tags></tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="9.0.1" />
+      <!-- These dependencies ensure that users of the library get upgraded versions of
+           Microsoft's security libraries. -->
       <dependency id="System.Runtime.InteropServices" version="4.3.0" />
       <dependency id="System.IO.Compression" version="4.3.0" />
-      <dependency id="System.Security.Cryptography.Algorithms" version="4.3.0" />
+      <dependency id="System.Security.Cryptography.Algorithms" version="4.3.1" />
       <dependency id="System.Security.Cryptography.Csp" version="4.3.0" />
-      <dependency id="System.Security.Cryptography.Cng" version="4.3.0" />
-      <dependency id="System.Security.Cryptography.X509Certificates" version="4.3.0" />
+      <dependency id="System.Security.Cryptography.Cng" version="4.5.0" />
+      <dependency id="System.Security.Cryptography.X509Certificates" version="4.3.2" />
       <dependency id="System.Runtime.Serialization.Primitives" version="4.3.0" />
     </dependencies>
   </metadata>
